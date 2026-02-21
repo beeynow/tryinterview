@@ -19,7 +19,7 @@ REACT_APP_FIREBASE_PROJECT_ID=test-590a3
 REACT_APP_FIREBASE_STORAGE_BUCKET=test-590a3.firebasestorage.app
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=708966463501
 REACT_APP_FIREBASE_APP_ID=1:708966463501:web:80a4e10962f9456e9e3d44
-REACT_APP_GA_TRACKING_ID=G-081WLCG23Y
+REACT_APP_GA_TRACKING_ID=G-PDGK2KLX4S
 ```
 
 ✅ **Status:** Already configured and ready to use!
@@ -43,7 +43,7 @@ REACT_APP_GA_TRACKING_ID=G-081WLCG23Y
 | `REACT_APP_FIREBASE_STORAGE_BUCKET` | `test-590a3.firebasestorage.app` |
 | `REACT_APP_FIREBASE_MESSAGING_SENDER_ID` | `708966463501` |
 | `REACT_APP_FIREBASE_APP_ID` | `1:708966463501:web:80a4e10962f9456e9e3d44` |
-| `REACT_APP_GA_TRACKING_ID` | `G-081WLCG23Y` |
+| `REACT_APP_GA_TRACKING_ID` | `G-PDGK2KLX4S` |
 
 5. For each variable, select: **Production**, **Preview**, and **Development**
 6. Click **Save**
@@ -135,7 +135,7 @@ If you ever need to rotate keys or add new Firebase features:
 
 Your Google Analytics tracking ID is also in environment variables:
 
-- **Tracking ID:** G-081WLCG23Y
+- **Tracking ID:** G-PDGK2KLX4S
 - **Dashboard:** [analytics.google.com](https://analytics.google.com)
 
 ---

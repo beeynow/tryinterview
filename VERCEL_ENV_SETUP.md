@@ -24,7 +24,7 @@
    | `REACT_APP_FIREBASE_STORAGE_BUCKET` | `test-590a3.firebasestorage.app` | Production, Preview, Development |
    | `REACT_APP_FIREBASE_MESSAGING_SENDER_ID` | `708966463501` | Production, Preview, Development |
    | `REACT_APP_FIREBASE_APP_ID` | `1:708966463501:web:80a4e10962f9456e9e3d44` | Production, Preview, Development |
-   | `REACT_APP_GA_TRACKING_ID` | `G-081WLCG23Y` | Production, Preview, Development |
+   | `REACT_APP_GA_TRACKING_ID` | `G-PDGK2KLX4S` | Production, Preview, Development |
 
 4. **For Each Variable:**
    - Click "Add New" button
@@ -81,7 +81,7 @@ Value: 1:708966463501:web:80a4e10962f9456e9e3d44
 
 ```
 Name: REACT_APP_GA_TRACKING_ID
-Value: G-081WLCG23Y
+Value: G-PDGK2KLX4S
 ```
 
 ---
@@ -132,7 +132,7 @@ vercel env add REACT_APP_FIREBASE_APP_ID production preview development
 # Paste: 1:708966463501:web:80a4e10962f9456e9e3d44
 
 vercel env add REACT_APP_GA_TRACKING_ID production preview development
-# Paste: G-081WLCG23Y
+# Paste: G-PDGK2KLX4S
 
 # Deploy
 vercel --prod

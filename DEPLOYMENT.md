@@ -74,7 +74,7 @@ REACT_APP_FIREBASE_PROJECT_ID=test-590a3
 REACT_APP_FIREBASE_STORAGE_BUCKET=test-590a3.firebasestorage.app
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=708966463501
 REACT_APP_FIREBASE_APP_ID=1:708966463501:web:80a4e10962f9456e9e3d44
-REACT_APP_GA_TRACKING_ID=G-081WLCG23Y
+REACT_APP_GA_TRACKING_ID=G-PDGK2KLX4S
 ```
 
 **How to add in Vercel:**
@@ -86,7 +86,7 @@ REACT_APP_GA_TRACKING_ID=G-081WLCG23Y
 
 **Where to find these:**
 - Firebase values: Firebase Console → Project Settings → General → Your apps
-- GA Tracking ID: Already set to G-081WLCG23Y
+- GA Tracking ID: Already set to G-PDGK2KLX4S
 
 **Note:** These values are already configured in your `.env.local` file for local development.
 
