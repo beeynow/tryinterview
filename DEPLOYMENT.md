@@ -63,21 +63,32 @@ npm run build
 
 ## 🔐 Environment Variables Setup
 
+### **Required for Vercel Deployment:**
+
 In your Vercel project settings, add these environment variables:
 
-```
-REACT_APP_FIREBASE_API_KEY=your_api_key_here
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain_here
-REACT_APP_FIREBASE_PROJECT_ID=your_project_id_here
-REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket_here
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id_here
-REACT_APP_FIREBASE_APP_ID=your_app_id_here
+```bash
+REACT_APP_FIREBASE_API_KEY=AIzaSyAvPr3mVazhgNZO67zVKXj7RMG0_OQzM-c
+REACT_APP_FIREBASE_AUTH_DOMAIN=test-590a3.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=test-590a3
+REACT_APP_FIREBASE_STORAGE_BUCKET=test-590a3.firebasestorage.app
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=708966463501
+REACT_APP_FIREBASE_APP_ID=1:708966463501:web:80a4e10962f9456e9e3d44
+REACT_APP_GA_TRACKING_ID=G-081WLCG23Y
 ```
 
+**How to add in Vercel:**
+1. Go to your Vercel project dashboard
+2. Click "Settings" → "Environment Variables"
+3. Add each variable above
+4. Select "Production", "Preview", and "Development"
+5. Click "Save"
+
 **Where to find these:**
-- Go to Firebase Console → Project Settings → General
-- Scroll to "Your apps" section
-- Copy the config values
+- Firebase values: Firebase Console → Project Settings → General → Your apps
+- GA Tracking ID: Already set to G-081WLCG23Y
+
+**Note:** These values are already configured in your `.env.local` file for local development.
 
 ---
 
