@@ -7,7 +7,7 @@ const Founder = ({ onBack }) => {
       {/* Header */}
       <header className="founder-header">
         <div className="founder-header-content">
-          <img src="/logo.png" alt="TryInterview" className="founder-header-logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview" className="founder-header-logo" />
           <button onClick={onBack} className="founder-back-btn">← Back</button>
         </div>
       </header>
@@ -16,7 +16,7 @@ const Founder = ({ onBack }) => {
       <section className="founder-hero-section">
         <div className="founder-hero-container">
           <div className="founder-hero-image-wrapper">
-            <img src="/founder-1.jpg" alt="Muhammad Yakubu Usman" className="founder-hero-image" />
+            <img src={`${process.env.PUBLIC_URL}/founder-1.jpg`} alt="Muhammad Yakubu Usman" className="founder-hero-image" />
             <div className="founder-badge">Founder & Visionary</div>
           </div>
           <div className="founder-hero-content">
@@ -324,7 +324,7 @@ const Founder = ({ onBack }) => {
         <div className="founder-container">
           <div className="footer-content">
             <div className="footer-brand">
-              <img src="/logo.png" alt="TryInterview" className="footer-logo" />
+              <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview" className="footer-logo" />
               <p>Founded and built by Muhammad Yakubu Usman</p>
             </div>
             <div className="footer-note">

@@ -23,7 +23,7 @@ const LandingPage = ({ onGetStarted }) => {
       <header className="header">
         <div className="header-content">
           <div className="logo-section">
-            <img src="/logo.png" alt="TryInterview Logo" className="logo-img" />
+            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview Logo" className="logo-img" />
             <span className="brand-name">TryInterview</span>
           </div>
           
@@ -66,7 +66,7 @@ const LandingPage = ({ onGetStarted }) => {
           
           <div className="hero-image-container">
             <img 
-              src="/practice-interview-online.png" 
+              src={`${process.env.PUBLIC_URL}/practice-interview-online.png`}
               alt="Practice interviews online with TryInterview" 
               className="hero-image"
             />
@@ -93,7 +93,7 @@ const LandingPage = ({ onGetStarted }) => {
           
           <div className="image-container">
             <img 
-              src="/confuse-to-get-perfect-mock-interview-platform-.png" 
+              src={`${process.env.PUBLIC_URL}/confuse-to-get-perfect-mock-interview-platform-.png`}
               alt="Confused about finding the perfect interview platform" 
               className="section-image"
             />
@@ -106,7 +106,7 @@ const LandingPage = ({ onGetStarted }) => {
         <div className="section-wrapper reverse">
           <div className="image-container">
             <img 
-              src="/failed-Interview.png" 
+              src={`${process.env.PUBLIC_URL}/failed-Interview.png`}
               alt="Failed interview experience" 
               className="section-image"
             />
@@ -147,7 +147,7 @@ const LandingPage = ({ onGetStarted }) => {
           
           <div className="image-container">
             <img 
-              src="/confidence-with-interview.png" 
+              src={`${process.env.PUBLIC_URL}/confidence-with-interview.png`}
               alt="Build confidence with interview practice" 
               className="section-image"
             />
@@ -160,7 +160,7 @@ const LandingPage = ({ onGetStarted }) => {
         <div className="section-wrapper reverse">
           <div className="image-container">
             <img 
-              src="/practice-interview-online.png" 
+              src={`${process.env.PUBLIC_URL}/practice-interview-online.png`}
               alt="Practice interviews online anytime" 
               className="section-image"
             />
@@ -201,7 +201,7 @@ const LandingPage = ({ onGetStarted }) => {
           
           <div className="image-container">
             <img 
-              src="/common-interview-questions.png" 
+              src={`${process.env.PUBLIC_URL}/common-interview-questions.png`}
               alt="Common interview questions database" 
               className="section-image"
             />
@@ -214,7 +214,7 @@ const LandingPage = ({ onGetStarted }) => {
         <div className="section-wrapper reverse">
           <div className="image-container">
             <img 
-              src="/sit-for-interview-after-using-tryinterview.png" 
+              src={`${process.env.PUBLIC_URL}/sit-for-interview-after-using-tryinterview.png`}
               alt="Ready for interview after using TryInterview" 
               className="section-image"
             />
@@ -255,7 +255,7 @@ const LandingPage = ({ onGetStarted }) => {
           
           <div className="image-container">
             <img 
-              src="/successed-interview-with-tryinterview.site.png" 
+              src={`${process.env.PUBLIC_URL}/successed-interview-with-tryinterview.site.png`}
               alt="Success with TryInterview platform" 
               className="section-image"
             />
@@ -283,7 +283,7 @@ const LandingPage = ({ onGetStarted }) => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/logo.png" alt="TryInterview" className="footer-logo-img" />
+              <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview" className="footer-logo-img" />
               <span>TryInterview</span>
             </div>
             <p>AI-Powered Interview Preparation Platform</p>
