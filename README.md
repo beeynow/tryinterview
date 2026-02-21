@@ -1,71 +1,194 @@
-# Getting Started with Create React App
+# 🎯 TryInterview - AI-Powered Mock Interview Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Transform your interview preparation with AI-powered practice sessions, instant feedback, and comprehensive analytics.
 
-## Available Scripts
+![TryInterview](./public/logo.png)
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+### Core Features
+- ✅ **AI-Powered Mock Interviews** - Practice with intelligent AI interviewers
+- ✅ **Question Bank** - 10,000+ curated interview questions
+- ✅ **Resume Analyzer** - AI-powered resume analysis and optimization
+- ✅ **Meeting Summarizer** - Automated interview session summaries
+- ✅ **Real-time Feedback** - Instant performance insights
+- ✅ **Performance Analytics** - Track your progress over time
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Authentication
+- 🔐 **Google Sign-In** - Quick OAuth authentication
+- 🔐 **GitHub Sign-In** - Developer-friendly login
+- 🎯 **Smart Onboarding** - Personalized setup for new users
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Experience
+- 🎨 **Beautiful UI** - Modern glassmorphism design
+- 📱 **Fully Responsive** - Works on all devices
+- ⚡ **Fast & Smooth** - Optimized performance
+- 🎬 **Lottie Animations** - Professional loading states
 
-### `npm test`
+## 🚀 Quick Start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js 14+ and npm
+- Firebase project (for authentication)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+```bash
+git clone <your-repo-url>
+cd tryinterview
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Set up environment variables:**
+```bash
+cp .env.example .env.local
+```
 
-### `npm run eject`
+Edit `.env.local` and add your Firebase credentials.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start development server:**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open [http://localhost:3000](http://localhost:3000)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+Creates optimized production build in `build/` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Deploy to Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Option 1: Vercel CLI
+```bash
+npm install -g vercel
+vercel login
+vercel --prod
+```
 
-### Code Splitting
+### Option 2: GitHub Integration
+1. Push code to GitHub
+2. Import project in Vercel dashboard
+3. Deploy automatically
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.**
 
-### Analyzing the Bundle Size
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend:** React 19, JavaScript
+- **Authentication:** Firebase Auth (Google, GitHub)
+- **Animations:** Lottie, CSS animations
+- **Styling:** Custom CSS with Glassmorphism
+- **Hosting:** Vercel (recommended)
+- **Build Tool:** Create React App
 
-### Making a Progressive Web App
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+tryinterview/
+├── public/
+│   ├── logo.png
+│   ├── founder-1.jpg
+│   ├── founder-2.jpg
+│   └── *.png (3D images)
+├── src/
+│   ├── components/
+│   │   ├── LandingPage.js
+│   │   ├── AuthModal.js
+│   │   ├── OnboardingModal.js
+│   │   ├── Dashboard.js
+│   │   ├── QuestionBank.js
+│   │   ├── ResumeAnalyzer.js
+│   │   ├── MeetingSummarizer.js
+│   │   ├── Features.js
+│   │   ├── About.js
+│   │   ├── Founder.js
+│   │   ├── Terms.js
+│   │   ├── Privacy.js
+│   │   └── Loading.js
+│   ├── firebaseConfig.js
+│   ├── App.js
+│   └── index.js
+├── vercel.json
+├── package.json
+└── README.md
+```
 
-### Advanced Configuration
+## 🔧 Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Firebase Setup
 
-### Deployment
+1. Create a Firebase project
+2. Enable Authentication (Google & GitHub)
+3. Add authorized domains:
+   - `localhost` (for development)
+   - `your-vercel-domain.vercel.app` (for production)
+4. Copy config to `.env.local`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Vercel Environment Variables
 
-### `npm run build` fails to minify
+Add these in Vercel dashboard → Settings → Environment Variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tryinterview
+- `REACT_APP_FIREBASE_API_KEY`
+- `REACT_APP_FIREBASE_AUTH_DOMAIN`
+- `REACT_APP_FIREBASE_PROJECT_ID`
+- `REACT_APP_FIREBASE_STORAGE_BUCKET`
+- `REACT_APP_FIREBASE_MESSAGING_SENDER_ID`
+- `REACT_APP_FIREBASE_APP_ID`
+
+## 🎨 Features Overview
+
+### Landing Page
+- 7 sections with 3D images
+- Feature highlights
+- Statistics showcase
+- Call-to-action buttons
+
+### Onboarding
+- 3-step personalized setup
+- Skills and goals collection
+- Only shown to new users
+
+### Dashboard
+- User profile
+- Recent activity
+- Performance metrics
+- Quick access to features
+
+### Premium Features (Authentication Required)
+- Question Bank
+- Resume Analyzer
+- AI Meeting Summarizer
+
+## 👨‍💼 About the Founder
+
+**Muhammad Yakubu Usman** - Founder & CEO
+- Entrepreneur and Innovator
+- Founder of BeeYnow
+- Career Transformation Advocate
+- Helped 50,000+ job seekers
+
+[Learn more about the founder →](/#founder)
+
+## 📄 License
+
+This project is proprietary software owned by BeeYnow.
+
+## 🤝 Support
+
+For support, email support@tryinterview.com
+
+---
+
+**Built with ❤️ by Muhammad Yakubu Usman**
+
+*Empowering careers through innovation*
