@@ -40,7 +40,7 @@ function ResumeAnalyzer({ onBack }) {
       <header className="feature-page-header">
         <div className="feature-header-content">
           <button className="back-button" onClick={onBack}>← Back to Home</button>
-          <img src="/logo.png" alt="TryInterview Logo" className="page-logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview Logo" className="page-logo" />
           <span className="page-brand">TryInterview</span>
         </div>
       </header>

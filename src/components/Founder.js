@@ -70,7 +70,7 @@ const Founder = ({ onBack }) => {
               </div>
             </div>
             <div className="founder-image-content">
-              <img src="/founder-2.jpg" alt="Muhammad at work" className="founder-content-image" />
+              <img src={`${process.env.PUBLIC_URL}/founder-2.jpg`} alt="Muhammad at work" className="founder-content-image" />
               <p className="image-caption">Muhammad working on TryInterview's AI algorithms</p>
             </div>
           </div>

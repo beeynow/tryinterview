@@ -52,7 +52,7 @@ const OnboardingModal = ({ user, onComplete }) => {
     <div className="onboarding-overlay">
       <div className="onboarding-modal">
         <div className="onboarding-header">
-          <img src="/logo.png" alt="TryInterview" className="onboarding-logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview" className="onboarding-logo" />
           <h2>Welcome to TryInterview! 🎉</h2>
           <p>Let's personalize your interview prep experience</p>
         </div>

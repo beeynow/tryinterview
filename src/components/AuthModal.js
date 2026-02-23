@@ -73,7 +73,7 @@ const AuthModal = ({ onClose, onAuthSuccess }) => {
         </button>
 
         <div className="modal-header">
-          <img src="/logo.png" alt="TryInterview Logo" className="modal-logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="TryInterview Logo" className="modal-logo" />
           <h2>Welcome Back</h2>
           <p>Sign in to continue to your dashboard</p>
         </div>
